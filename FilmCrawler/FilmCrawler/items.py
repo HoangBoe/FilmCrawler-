@@ -11,4 +11,22 @@ import scrapy
 class FilmcrawlerItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    img = scrapy.Field()
+    name = scrapy.Field()
+    realname = scrapy.Field()
+    status = scrapy.Field()
+    director = scrapy.Field()
+    country = scrapy.Field()
+    year = scrapy.Field()
+    time = scrapy.Field()
+    dateIssue = scrapy.Field()
+    quanlity = scrapy.Field()
+    resolution = scrapy.Field()
+    language = scrapy.Field()
+    tag = scrapy.Field()
+    url = scrapy.Field()
+    content = scrapy.Field()
+    company = scrapy.Field()
+    IMDb = scrapy.Field()
+    keywords = scrapy.Field()
     pass
